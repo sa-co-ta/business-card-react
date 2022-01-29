@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  color: #ebebeb;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.container {
+  background-color: #23252c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #1a1b21;
+  width: 32rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.info--pfp {
+  max-width: 100%;
+}
+
+.info--details {
+  padding: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+.info--subtitle {
+  font-size: 1.6rem;
+  color: #f3bf99;
+  margin-bottom: 1rem;
+}
+
+.info--url {
+  font-size: 1.6rem;
+}
+
+.info--btn {
+  width: 20rem;
+  border-radius: 0.8rem;
+  background: #fff;
+  padding: 1.4rem 1.5rem;
+}
+
+.github-logo {
+  width: 35%;
+}
+
+.bio {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+}
+
+.bio--copy {
+  font-size: 1.4rem;
+  line-height: 1.35;
+  color: #aaaaaa;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  background-color: #161619;
+}
