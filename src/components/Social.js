@@ -7,13 +7,22 @@ export default function Social() {
   return (
     <aside className="social">
       <a href="https://twitter.com/sacota_creative" target="_blank">
-        <img src={TwitterIcon} />
+        <img
+          src={TwitterIcon}
+          alt="twitter logo linking to Sacota.eth's twitter profile"
+        />
       </a>
       <a href="https://github.com/sa-co-ta" target="_blank">
-        <img src={GithubIcon} />
+        <img
+          src={GithubIcon}
+          alt="github logo linking to Sacota.eth's github repository"
+        />
       </a>
       <a href="https://mirror.xyz/sacota.eth" target="_blank">
-        <img src={MirrorIcon} />
+        <img
+          src={MirrorIcon}
+          alt="mirror logo linking to Sacota.eth's blog on mirror.xyz"
+        />
       </a>
     </aside>
   );
