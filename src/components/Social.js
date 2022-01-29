@@ -6,19 +6,23 @@ import mirroricon from "../images/mirror-icon.svg";
 export default function Social() {
   return (
     <aside className="social">
-      <a href="https://twitter.com/sacota_creative" target="_blank">
+      <a
+        href="https://twitter.com/sacota_creative"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img
           src={twittericon}
           alt="twitter logo linking to Sacota.eth's twitter profile"
         />
       </a>
-      <a href="https://github.com/sa-co-ta" target="_blank">
+      <a href="https://github.com/sa-co-ta" target="_blank" rel="noreferrer">
         <img
           src={githubicon}
           alt="github logo linking to Sacota.eth's github repository"
         />
       </a>
-      <a href="https://mirror.xyz/sacota.eth" target="_blank">
+      <a href="https://mirror.xyz/sacota.eth" target="_blank" rel="noreferrer">
         <img
           src={mirroricon}
           alt="mirror logo linking to Sacota.eth's blog on mirror.xyz"
